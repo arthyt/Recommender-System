@@ -8,8 +8,8 @@ import java.io.IOException;
 public class TextToCSVGenerator {
 	public static void main(String args[]){
 		try {
-			BufferedReader r  = new BufferedReader(new FileReader("/Users/mchandramohan/Downloads/movies.txt"));
-			FileWriter fileWriter = new FileWriter("/Users/mchandramohan/Downloads/moviestext.txt");
+			BufferedReader r  = new BufferedReader(new FileReader("/Users/arthythirupathysamy/Downloads/movies.txt"));
+			FileWriter fileWriter = new FileWriter("/Users/arthythirupathysamy/Downloads/moviestext.txt");
 
 			long count = 0, finalCount = 1000000;
 			while(count<=finalCount){
